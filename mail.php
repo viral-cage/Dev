@@ -1,10 +1,12 @@
-<?php $name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-$formcontent="From: $name \n Message: $message";
-$recipient = "emailaddress@here.com";
-$subject = "Contact Form";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!";
+<?php
+$to = "phulman12@gmail.com";
+$subject = "Response from website";
+$message = "I am very thankful to you";
+$headers = "From: "support@viralcage.com";
+
+if (mail($to, $subject, $message, $headers)){
+echo "Mail send Sucessfully";
+else{
+echo "Can not send mail";
+}
 ?>
