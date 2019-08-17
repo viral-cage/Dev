@@ -1,8 +1,0 @@
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_donations" />
-<input type="hidden" name="business" value="payment@viralcage.com" />
-<input type="hidden" name="item_name" value="Support ViralCage.Com" />
-<input type="hidden" name="currency_code" value="CAD" />
-<input type="image" src="https://banner2.kisspng.com/20180910/ebl/kisspng-donation-computer-icons-portable-network-graphics-5b972c7dae3c67.3842247115366339817137.jpg" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
-</form>
