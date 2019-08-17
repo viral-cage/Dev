@@ -1,12 +1,33 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <title>Support Viral Cage via Paypal</title>
-<center><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<div class="pp-canvasarea">
+<div class="pp-formbox">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="pp-form">
 <input type="hidden" name="cmd" value="_donations" />
-<input type="hidden" name="business" value="payment@viralcage.com" />
-<input type="hidden" name="item_name" value="Support ViralCage.Com" />
-<input type="hidden" name="currency_code" value="CAD" />
-<input type="image" src="https://i.imgur.com/jJ2LVpa.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
+<input type="hidden" name="business" value="payment@viralcage.com">
+<input type="hidden" name="item_name" value="Paypal Payment">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+
+Enter amount:<br>
+
+<input type="text" name="amount" value="" class="pp-input"><br>
+
+<input type="hidden" name="on0" value="Payment Details">
+
+Payment notes:<br>
+
+<textarea name="os0" rows="4" cols="80" class="pp-textarea"></textarea><br>
+
+<input type="submit" name="PaypalPayment" value="Send Payment" class="pp-button"><br>
+
 </form>
+
+</div>
+<img src="https://i.imgur.com/jJ2LVpa.png" class="pp-badge" alt="Payments through Paypal">
+<div class="pp-clear-float"></div>
+</div>
+<br>
 </center>
+</html>
